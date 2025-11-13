@@ -1,0 +1,9 @@
+uuid: 7cb6d896-2f12-4d6e-8dd2-5bbe6c7aa024
+langcode: en
+status: true
+dependencies: {  }
+name: Language
+vid: language
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,31 @@
+uuid: 228ec851-2190-4f94-8cf7-d8e4c06589b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - ai_provider_amazeeio.settings
+  module:
+    - ai_provider_amazeeio
+    - ai_search
+id: amazee_server
+name: 'Amazee server'
+description: ''
+backend: search_api_ai_search
+backend_config:
+  chat_model: amazeeio__chat_with_complex_json
+  database: amazeeio_vector_db
+  database_settings:
+    database_name: db_ccf5039f
+    collection: amazee_ai
+    metric: cosine_similarity
+  embeddings_engine: amazeeio__embeddings
+  embeddings_engine_configuration:
+    set_dimensions: false
+    dimensions: 1024
+  embedding_strategy: contextual_chunks
+  embedding_strategy_configuration:
+    chunk_size: '2048'
+    chunk_min_overlap: '100'
+    contextual_content_max_percentage: '30'
+  embedding_strategy_details: ''
+  include_raw_embedding_vector: false
