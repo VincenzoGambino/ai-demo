@@ -1,0 +1,20 @@
+uuid: e1d471e4-2a12-4bcd-8ee6-db9be755dc52
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tone
+  module:
+    - path
+id: taxonomy_term.tone.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tone
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

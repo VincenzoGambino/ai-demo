@@ -1,0 +1,22 @@
+uuid: 0caaf842-8cc2-44b4-811f-24123133e335
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tone
+id: taxonomy_term.tone.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tone
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

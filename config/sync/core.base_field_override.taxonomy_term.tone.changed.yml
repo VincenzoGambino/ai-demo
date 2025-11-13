@@ -1,0 +1,18 @@
+uuid: 3461a03e-d617-43e5-9a44-f2c3ca94d0c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tone
+id: taxonomy_term.tone.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: tone
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

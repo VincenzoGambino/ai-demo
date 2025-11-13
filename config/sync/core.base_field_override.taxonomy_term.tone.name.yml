@@ -1,0 +1,18 @@
+uuid: dcf49424-1c7b-43d2-aeb7-d46036b696bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tone
+id: taxonomy_term.tone.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tone
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

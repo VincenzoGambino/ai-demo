@@ -1,9 +1,9 @@
-uuid: 4cee1aef-6338-4fc4-9128-136b4f5b6208
+uuid: 9ff7d0e5-50fe-4943-b366-5ae523a7e2ad
 langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.language
+    - block_content.type.basic
   module:
     - content_translation
 third_party_settings:
@@ -11,8 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: taxonomy_term.language
-target_entity_type_id: taxonomy_term
-target_bundle: language
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
 default_langcode: site_default
 language_alterable: false

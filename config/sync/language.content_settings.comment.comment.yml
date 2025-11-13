@@ -1,9 +1,9 @@
-uuid: 4cee1aef-6338-4fc4-9128-136b4f5b6208
+uuid: 3c1879c7-223e-4cd1-b42c-4724aa8264a9
 langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.language
+    - comment.type.comment
   module:
     - content_translation
 third_party_settings:
@@ -11,8 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: taxonomy_term.language
-target_entity_type_id: taxonomy_term
-target_bundle: language
+id: comment.comment
+target_entity_type_id: comment
+target_bundle: comment
 default_langcode: site_default
 language_alterable: false
